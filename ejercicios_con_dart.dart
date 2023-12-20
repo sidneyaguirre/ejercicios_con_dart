@@ -108,8 +108,9 @@ void main() {
 
   //While loop
   var number = 5;
-  while (number < 1) {
-    number++;
+  while (number > 0) {
+    number--;
+    print(number);
   }
   print("tenía $number pero si le sumo 10 tengo ${number + 10}");
 }
